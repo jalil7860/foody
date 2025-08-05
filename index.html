@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- BootStrap Css CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+    <!--Stylesheet External-->
+    <link rel="stylesheet" href="style.css" />
+    <!--Font Awsome CDN-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header class="hero">
+      <!--Carousel-->
+      <div
+        id="Foodcariusel"
+        class="carousel slide carousel-fade"
+        data-bs-ride="carousel"
+        data-bs-interval="5000"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="./Assets/carousel-1.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./Assets/carousel-2.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#Foodcariusel"
+          data-bs-slide="prev"
+        >
+          <span
+            class="carousel-control-prev-icon control"
+            aria-hidden="true"
+          ></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#Foodcariusel"
+          data-bs-slide="next"
+        >
+          <span
+            class="carousel-control-next-icon control"
+            aria-hidden="true"
+          ></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <section class="pre-nevabr">
+        <div class="contact-info">
+          <ul class="m-0 p-0">
+            <li><i class="fa-solid fa-location-dot"></i>Model Town, Lahore</li>
+            <li><i class="fa-solid fa-envelope"></i> evslahore.com</li>
+          </ul>
+        </div>
+        <div class="social-links">
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-linkedin-in"></i>
+          <i class="fa-brands fa-instagram"></i>
+        </div>
+      </section>
+      <section class="navbar">
+        <div class="logo">F<span>oo</span>dy</div>
+        <div class="menu">
+          <ul class="m-0">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#About">About us</a></li>
+            <li><a href="#product">Products</a></li>
+            <li><a href="#pages">Pages</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-solid fa-user"></i>
+            <i class="fa-solid fa-bag-shopping"></i>
+          </ul>
+        </div>
+      </section>
+      <section class="content">
+        <h1>
+          organic food is good <br />
+          for health
+        </h1>
+        <div class="btns">
+          <button class="btn1">Products</button>
+          <button class="btn2">Service</button>
+        </div>
+      </section>
+    </header>
+
+    <section class="about-section">
+      <div class="image">
+        <img src="./Assets/about.jpg" alt="About" />
+      </div>
+      <div class="about-us" id="About">
+        <h2>Best Organic Fruits And<br />Vegetables</h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque autem
+          fuga sequi rem consequatur quos cumque molestiae nulla velit dolore?
+        </p>
+        <ul>
+          <li><i class="fa-solid fa-check"></i>Fresh Vegetables</li>
+          <li><i class="fa-solid fa-check"></i>Good for your Health</li>
+          <li>
+            <i class="fa-solid fa-check"></i>Full Of Nutrients and Protein
+          </li>
+        </ul>
+        <button>Read More</button>
+      </div>
+    </section>
+
+    <section class="features-section">
+      <h2>Our Features</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore harum
+        provident quidem obcaecati autem?
+      </p>
+      <div class="cards">
+        <div class="feature-card">
+          <img src="./Assets/icon-1.png" alt="" />
+          <h3>Natural Process</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore,
+            illo.
+          </p>
+          <button>Read More</button>
+        </div>
+
+        <div class="feature-card">
+          <img src="./Assets/icon-2.png" alt="" />
+          <h3>Organic Products</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore,
+            illo.
+          </p>
+          <button>Read More</button>
+        </div>
+
+        <div class="feature-card">
+          <img src="./Assets/icon-3.png" alt="" />
+          <h3>Biologically Safe</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore,
+            illo.
+          </p>
+          <button>Read More</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="product-section">
+      <h1>Our Products</h1>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint,
+        temporibus!
+      </p>
+      <div class="product-grid">
+        <div class="card" style="width: 15rem">
+          <p class="tag">New</p>
+          <img src="Assets/product-1.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title text-center">Fresh Tomato</h5>
+            <p class="card-text text-center">
+              210PKR &nbsp; <span>300PKR</span>
+            </p>
+            <a href="#">Add to Cart</a>
+          </div>
+        </div>
+        <div class="card" style="width: 15rem">
+          <p class="tag">New</p>
+          <img src="Assets/product-2.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title text-center">Fresh Tomato</h5>
+            <p class="card-text text-center">
+              210PKR &nbsp; <span>300PKR</span>
+            </p>
+            <a href="#">Add to Cart</a>
+          </div>
+        </div>
+        <div class="card" style="width: 15rem">
+          <p class="tag">New</p>
+          <img src="Assets/product-3.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title text-center">Fresh Tomato</h5>
+            <p class="card-text text-center">
+              210PKR &nbsp; <span>300PKR</span>
+            </p>
+            <a href="#">Add to Cart</a>
+          </div>
+        </div>
+        <div class="card" style="width: 15rem">
+          <p class="tag">New</p>
+          <img src="Assets/product-4.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title text-center">Fresh Tomato</h5>
+            <p class="card-text text-center">
+              210PKR &nbsp; <span>300PKR</span>
+            </p>
+            <a href="#">Add to Cart</a>
+          </div>
+        </div>
+        <div class="card" style="width: 15rem">
+          <p class="tag">New</p>
+          <img src="Assets/product-5.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title text-center">Fresh Tomato</h5>
+            <p class="card-text text-center">
+              210PKR &nbsp; <span>300PKR</span>
+            </p>
+            <a href="#">Add to Cart</a>
+          </div>
+        </div>
+        <div class="card" style="width: 15rem">
+          <p class="tag">New</p>
+          <img src="Assets/product-6.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title text-center">Fresh Tomato</h5>
+            <p class="card-text text-center">
+              210PKR &nbsp; <span>300PKR</span>
+            </p>
+            <a href="#">Add to Cart</a>
+          </div>
+        </div>
+        <div class="card" style="width: 15rem">
+          <p class="tag">New</p>
+          <img src="Assets/product-7.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title text-center">Fresh Tomato</h5>
+            <p class="card-text text-center">
+              210PKR &nbsp; <span>300PKR</span>
+            </p>
+            <a href="#">Add to Cart</a>
+          </div>
+        </div>
+        <div class="card" style="width: 15rem">
+          <p class="tag">New</p>
+          <img src="Assets/product-8.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title text-center">Fresh Tomato</h5>
+            <p class="card-text text-center">
+              210PKR &nbsp; <span>300PKR</span>
+            </p>
+            <a href="#">Add to Cart</a>
+          </div>
+        </div>
+        <button>Search More Products</button>
+      </div>
+    </section>
+
+    <section class="testimonial">
+      <div class="visit-firm">
+        <div>
+          <h1>Visit Our Firm</h1>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum
+            neque ipsam laboriosam et blanditiis, consequuntur inventore tenetur
+            harum excepturi sunt.
+          </p>
+        </div>
+        <button>Visit Now</button>
+      </div>
+
+      <div class="customer-review">
+        <h1>Customer Review</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum magnam
+          illo aliquam tempore.
+        </p>
+
+        <div
+          id="testimonialCarousel"
+          class="carousel slide"
+          data-bs-ride="carousel"
+          data-bs-interval="5000"
+        >
+          <div class="carousel-inner">
+            <!-- First Slide - 3 testimonials -->
+            <div class="carousel-item active">
+              <div class="testimonial-grid">
+                <div class="testimonial-card">
+                  <div class="quote-icon">"</div>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Dolor diam ipsum et elemen are lorem que odit nec.
+                  </p>
+                  <div class="client-info">
+                    <img src="Assets/testimonial-1.jpg" alt="Client" />
+                    <div class="client-details">
+                      <h4>Client Name</h4>
+                      <span>Profession</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="testimonial-card active-card">
+                  <div class="quote-icon">"</div>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Dolor diam ipsum et elemen are lorem que odit nec.
+                  </p>
+                  <div class="client-info">
+                    <img src="Assets/testimonial-2.jpg" alt="Client" />
+                    <div class="client-details">
+                      <h4>Client Name</h4>
+                      <span>Profession</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="testimonial-card">
+                  <div class="quote-icon">"</div>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Dolor diam ipsum et elemen are lorem que odit nec.
+                  </p>
+                  <div class="client-info">
+                    <img src="Assets/testimonial-3.jpg" alt="Client" />
+                    <div class="client-details">
+                      <h4>Client Name</h4>
+                      <span>Profession</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Second Slide - 3 more testimonials -->
+            <div class="carousel-item">
+              <div class="testimonial-grid">
+                <div class="testimonial-card">
+                  <div class="quote-icon">"</div>
+                  <p>
+                    Amazing quality products and excellent customer service.
+                    Highly recommend to everyone looking for organic food.
+                  </p>
+                  <div class="client-info">
+                    <img src="Assets/testimonial-4.jpg" alt="Client" />
+                    <div class="client-details">
+                      <h4>Sarah Johnson</h4>
+                      <span>Food Blogger</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="testimonial-card active-card">
+                  <div class="quote-icon">"</div>
+                  <p>
+                    Fresh vegetables delivered right to my doorstep. The quality
+                    is consistently excellent and prices are fair.
+                  </p>
+                  <div class="client-info">
+                    <img src="Assets/testimonial-1.jpg" alt="Client" />
+                    <div class="client-details">
+                      <h4>Mike Chen</h4>
+                      <span>Health Coach</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="testimonial-card">
+                  <div class="quote-icon">"</div>
+                  <p>
+                    Best organic food supplier in the city. Their commitment to
+                    quality and customer satisfaction is outstanding.
+                  </p>
+                  <div class="client-info">
+                    <img src="Assets/testimonial-2.jpg" alt="Client" />
+                    <div class="client-details">
+                      <h4>Emma Davis</h4>
+                      <span>Nutritionist</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Custom Navigation Arrows -->
+          <div class="carousel-navigation">
+            <button
+              class="nav-arrow prev-arrow"
+              type="button"
+              data-bs-target="#testimonialCarousel"
+              data-bs-slide="prev"
+            >
+              <i class="fa-solid fa-chevron-left"></i>
+            </button>
+            <button
+              class="nav-arrow next-arrow"
+              type="button"
+              data-bs-target="#testimonialCarousel"
+              data-bs-slide="next"
+            >
+              <i class="fa-solid fa-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="blog-section">
+      <h1>Latest Blog</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
+        quas vel omnis?
+      </p>
+      <div class="card-container">
+        <div class="blog-card">
+          <img src="Assets/blog-1.jpg" alt="Blog" />
+          <div class="card-content">
+            <h3>How to cultivate organic fruits and vegetable in own firm</h3>
+            <hr />
+            <div class="card-btm">
+              <p><i class="fa-solid fa-user"></i>James</p>
+              <p><i class="fa-solid fa-calendar"></i>05 August 2025</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="blog-card">
+          <img src="Assets/blog-2.jpg" alt="Blog" />
+          <div class="card-content">
+            <h3>How to cultivate organic fruits and vegetable in own firm</h3>
+            <hr />
+            <div class="card-btm">
+              <p><i class="fa-solid fa-user"></i>James</p>
+              <p><i class="fa-solid fa-calendar"></i>05 August 2025</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="blog-card">
+          <img src="Assets/blog-3.jpg" alt="Blog" />
+          <div class="card-content">
+            <h3>How to cultivate organic fruits and vegetable in own firm</h3>
+            <hr />
+            <div class="card-btm">
+              <p><i class="fa-solid fa-user"></i>James</p>
+              <p><i class="fa-solid fa-calendar"></i>05 August 2025</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="footer-section">
+      <footer class="footer">
+        <div class="col col1">
+          <h3>F<span>oo</span>dy</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
+            iste illum?
+          </p>
+          <div class="social-icons">
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-instagram"></i>
+          </div>
+        </div>
+        <div class="col col2">
+          <h3>Address</h3>
+          <p>
+            <i class="fa-solid fa-location-dot"></i>evs Lahore, Gulberg II,<br />Lahore
+          </p>
+          <p><i class="fa-solid fa-phone"></i>+923007992662</p>
+          <p><i class="fa-solid fa-envelope"></i>evslahore@gmail.com</p>
+        </div>
+        <div class="col col3">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="">About Us</a></li>
+            <li><a href="">Contact Us</a></li>
+            <li><a href="">Our Service</a></li>
+            <li><a href="">Products</a></li>
+            <li><a href="">Support</a></li>
+          </ul>
+        </div>
+        <div class="col col4">
+          <h3>News Letter</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+          <input type="email" required placeholder="Email" />
+          <button>Subscribe</button>
+        </div>
+      </footer>
+      <!-- <div class="credits">
+              <div class="copywrite">
+                <p>&copy;Foody <span>All Right Reserved</span></p>
+              </div>
+            <div class="credit">
+                <p>Developed By <span>Jaleel Ahmed</span></p>
+            </div>
+          </div> -->
+    </section>
+    <div class="credits">
+      <div class="copywrite">
+        <p>&copy;Foody <span>All Right Reserved</span></p>
+      </div>
+      <div class="credit">
+        <p>Developed By <span>Jaleel Ahmed</span></p>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
