@@ -16,7 +16,7 @@ document
 
     try {
       // Send newsletter subscription email
-      await emailjs.send("service_zk61qst", "template_uu39qf6", {
+      await emailjs.send("service_7zsms11", "template_uu39qf6", {
         subscriber_email: email,
         from_name: "Foody Newsletter",
       });
